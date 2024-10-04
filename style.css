@@ -7,3 +7,9 @@
     --font:"Shadows Into Light", sans-serif;
 
 }
+
+body{
+    background-color: var(--big-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+}
