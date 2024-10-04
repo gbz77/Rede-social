@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 :root{
-    --big-color:#343131;
+    --bg-color:#343131;
     --primary-color:#e08181;
-    --secundary-color:#48dbdd;
+    --secundary-color:#18fbff;
     --font:"Shadows Into Light", sans-serif;
 
 }
 
 body{
-    background-color: var(--big-color);
+    background-color: var(--bg-color);
     color: var(--primary-color);
     font-family: var(--font);
     height:100vh;
@@ -17,4 +17,12 @@ body{
 }
 header{
     background-color: var(--primary-color);
+    text-align: center;
+}
+
+h1{
+
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
 }
