@@ -1,7 +1,9 @@
 const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-globais.json'
 
-async function VizualizarinformacoesGlobais(){
+async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
-    const dados = res.json()
-    console.log(dados)
+    const dados = await res.json()
+    console.log(dados);
 }
+
+vizualizarInformacoesGlobais()
